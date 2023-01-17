@@ -1,0 +1,83 @@
+mkdir Gitlabb1
+
+cd Gitlabb1
+
+git init
+
+git checkout -b main
+
+touch README.md
+
+notepad README.md
+
+git add README.md
+
+git status
+
+git commit -m "initial commit"
+
+git branch feature1
+
+git checkout feature1
+
+git status
+
+notepad README.md
+
+git add README.md
+
+git commit -m "Added dog and changed moose to mouse"
+
+git checkout main
+
+notepad README.md
+
+git add README.md
+
+git commit -m "Changing moose to mahmut"
+
+git merge feature1
+
+notepad README.md
+
+git add README.md
+
+git commit -m "Fixed merge conflict".
+
+git tag extinct
+
+git log --oneline
+
+git reset --hard HEAD^
+
+git branch feature2
+
+git status
+
+notepad README.md
+
+git add README.md
+
+git commit -m "Fixed uppercase"
+
+git checkout feature2
+
+touch fix1.txt
+
+git add fix1.txt
+
+git commit -m "Add fix1 file"
+
+touch fix2.txt
+
+git add fix2.txt
+
+git commit -m "Add fix2 file"
+
+git checkout main
+
+ls
+
+git cherry-pick d1f9eea0
+
+notepad fix2.txt

@@ -134,5 +134,14 @@ git merge feature 3
 git push -u origin feature3
 git push origin v1.0
 
+git pull
+
+notepad fix2.txt
+
+git add fix2.txt
+
+git commit -m "Fixed errors"
+
+git push
 
 

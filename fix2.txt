@@ -80,6 +80,7 @@ ls
 
 git cherry-pick d1f9eea0
 
+<<<<<<< HEAD
 notepad fix2.txt
 
 git remote add origin https://github.com/Anton20HD/Gitlabb1.git
@@ -110,7 +111,7 @@ git commit -m "Fixed gitignore file"
 
 git push
 
-$ git tag -a v1.0 -m "Version 1.0"
+git tag -a v1.0 -m "Version 1.0"
 
 git rebase -i HEAD~3
 
@@ -132,7 +133,6 @@ git merge feature 3
 
 git push -u origin feature3
 git push origin v1.0
-
 
 
 

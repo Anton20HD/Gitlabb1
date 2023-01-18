@@ -80,7 +80,7 @@ ls
 
 git cherry-pick d1f9eea0
 
-<<<<<<< HEAD
+
 notepad fix2.txt
 
 git remote add origin https://github.com/Anton20HD/Gitlabb1.git
